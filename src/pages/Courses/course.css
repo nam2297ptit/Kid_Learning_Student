@@ -1,0 +1,12 @@
+.subject_card{
+    /* width: 250px; */
+    cursor: pointer;
+}
+.quiz_card{
+    height: 380px;
+    background-color: transparent;
+    overflow: auto;
+}
+.quiz_child{
+    cursor: pointer;
+}

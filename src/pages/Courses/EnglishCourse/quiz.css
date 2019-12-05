@@ -1,0 +1,20 @@
+.quiz-pointer{
+    cursor: pointer;
+}
+.quiz-opacity{
+    opacity: 0.5;
+    cursor: pointer;
+    height: 70px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;    
+}
+.quiz-no-opacity{
+    cursor: pointer;
+    height: 70px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;   
+}
