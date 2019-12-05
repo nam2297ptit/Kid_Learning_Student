@@ -60,7 +60,7 @@ class Routes extends React.Component {
                             <>
                                 {childRoutes(DashboardLayout, dashBoardRoutes)}
                                 {childRoutes(QuizLayout, quizRoutes)}
-                                <Page404/>
+                                {(window.location.pathname !== '/dashboard' && window.location.pathname !== '/courses') && <Page404/>}
                             </>
                             :
                             <>
